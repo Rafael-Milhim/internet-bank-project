@@ -1,0 +1,17 @@
+<header>
+    <div class="dates" *ngFor="let date of dataBase">{{date.name}}</div>
+    <div class="balance">
+        <span>Saldo disponível:<span class="money">{{moneyShow}}</span></span>
+        <img (click)="showBalance()" src="{{rootImgEye}}" alt="">
+    </div>
+    <div class="loggout">
+        <span>Sair</span>
+        <img (click)="logout()" src="../../assets/leave-icon.svg" alt="">
+    </div>
+</header>
+<main>
+    <app-menu-ib (menuSelect)="reciverFeedback($event)"></app-menu-ib>
+    <app-statement-ib *ngIf="showStatement"></app-statement-ib>
+    <app-deposit-ib *ngIf="showDeposit" (depositSuccess)="reciverDeposit($event)"></app-deposit-ib>
+    <app-transfer-ib *ngIf="showTransfer" (transferSuccess)="reciverTransfer($event)"></app-transfer-ib>
+</main>

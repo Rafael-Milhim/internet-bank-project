@@ -1,0 +1,33 @@
+@import "../../../assets/variables.scss";
+p {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    background-image: linear-gradient(to left, rgba(255,255,255,0) 50%,rgba(255,255,255,1)),url(../../../assets/bg-main.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+span {
+    color: $second-color;
+}
+
+p span:first-child {
+    position: absolute;
+    font-family: $base-font;
+    font-size: calc(12px + 2vw);
+    top: calc(10px + 20vw);
+    right: 10px;
+}
+
+p span:last-child {
+    font-size: calc(9px + 0.5vw);
+    position: absolute;
+    top: calc(10px + 25vw);
+    right: 10px;
+}
+
+@media screen and (max-width: 500px){
+
+
+}

@@ -1,0 +1,36 @@
+@import "../../../assets/variables.scss";
+
+div {
+    width: 22vw;
+    min-width: 380px;
+    height: 100vh;
+    padding: 10px;
+    font-size: calc(12px + 0.8vw);
+    border-right: 5px solid #00777750;
+}
+
+form {
+    color: $base-color;
+    font-family: $base-font;
+}
+
+label {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+input {
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 500px){
+    label {
+        width: 35vw;
+    }
+
+    input{
+        height: 21px;
+        margin-left: 10px;
+    }
+ }

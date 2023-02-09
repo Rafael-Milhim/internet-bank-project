@@ -1,0 +1,9 @@
+<div>
+    <form #form="ngForm" (ngSubmit)="submitTransfer(form)">
+
+        <label>Valor do saque:<input name="valor"  type="text" ngModel required></label>
+        <label>Senha:<input  name="senha" type="password" ngModel required></label>
+        <button [disabled]="form.invalid" >Concluir</button>
+
+    </form>
+</div>

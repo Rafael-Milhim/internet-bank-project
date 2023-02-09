@@ -1,0 +1,58 @@
+@import "../../../../assets/variables.scss";
+:host {
+    position: absolute;
+    right: 0;
+    z-index: 1;
+}
+
+div {
+    padding-top: 2vh;
+    background-color: #007777ef;
+    width: 20vw;
+    height: 100vh;
+    min-width: 340px;
+    box-sizing: border-box;
+}
+
+input {
+    display: block;
+    margin-left: 15px;
+    border-radius: 5px;
+    border: none;
+    height: 25px;
+}
+
+div label:first-child input {
+    width: 70px;
+}
+
+div label:nth-child(2) input {
+    width: 70px;
+}
+
+div label:nth-child(3) input {
+    width: 120px;
+    margin-bottom: 0px;
+}
+
+label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: $base-font;
+    color: $second-color;
+    margin-bottom: 20px;
+    display: inline-block;
+    clear: left;
+    text-align: center;
+}
+
+button {
+    width: 15vw;
+    height: 2.5vh;
+    font-family: $base-font;
+    text-transform: uppercase;
+    color: $base-color;
+    display: block;
+    margin: 0 auto;
+}

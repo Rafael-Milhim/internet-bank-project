@@ -1,0 +1,9 @@
+<div>
+    <form #form="ngForm" (ngSubmit)="submitDeposit(form)">
+
+        <label>Valor do depósito:<input name="valor"  type="text" ngModel required></label>
+        <label>Senha:<input  name="senha" type="password" ngModel required></label>
+        <button [disabled]="form.invalid" >Concluir</button>
+
+    </form>
+</div>

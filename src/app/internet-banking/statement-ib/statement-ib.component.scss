@@ -1,0 +1,45 @@
+@import "../../../assets/variables.scss";
+
+main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    background-color: $second-color;
+}
+
+.container {
+    width: 100vw;
+}
+
+table {
+    margin-left: 5vw;
+    width: 50vw;
+    min-width: 300px;
+    text-align: center;
+    font-family: $base-font;
+    color: $base-color;
+    line-height: 50px;
+    background-color: white;
+}
+
+tr:hover:nth-child(1n + 1) {
+    background-color: $base-color;
+    color: #fff;
+    }
+
+th {
+    background-color: $base-color;
+    color: $second-color;
+}
+
+table, th, td {
+    border-bottom: 1px solid $base-color;
+    border-top: 1px solid $base-color;
+}
+
+@media screen and (max-width: 500px){
+    table {
+        font-size: calc(5px + 2vw);   
+        margin-left: 0; 
+    }
+ }

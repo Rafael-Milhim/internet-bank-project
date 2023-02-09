@@ -1,0 +1,10 @@
+<div *ngIf="showLoginScreen">
+    <form #form="ngForm" (ngSubmit)="submitForm(form)">
+
+        <label>Agência<input name="agencia"  type="text" ngModel required></label>
+        <label>Conta<input  name="conta" type="text" ngModel required></label>
+        <label>Senha<input  name="senha" type="password" ngModel required></label>
+        <button [disabled]="form.invalid" >Acessar</button>
+
+    </form>
+</div>

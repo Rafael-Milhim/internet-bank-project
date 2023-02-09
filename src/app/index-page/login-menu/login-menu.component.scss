@@ -1,0 +1,21 @@
+@import "../../../assets/variables.scss";
+
+:host {
+    margin: auto 50px auto auto;
+}
+
+span {
+    display: flex;
+    min-width: 66px;
+    font-family: $base-font;
+    font-size: calc(2px + 0.8vw);
+    text-transform: uppercase;
+    color: $second-color;
+    align-items: center;
+    cursor: pointer;
+}
+
+span img {
+    margin-left: 5px;
+    width: 2vw;
+}

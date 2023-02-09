@@ -1,0 +1,67 @@
+@import "../../assets/variables.scss";
+
+header {
+    height: 3vh;
+    background-color: $base-color;
+    color: $second-color;
+    font-family: $base-font;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.10);
+}
+
+main{
+    display: flex;
+}
+
+.dates {
+    min-width: 170px;
+    margin: auto 20px;
+}
+
+img {
+    max-width: 1230px;
+    width: 1.8vw;
+    min-width: 25px;
+}
+
+span {
+    margin: auto 0;
+    margin-left: 10px;
+}
+
+.loggout {
+    height: 3vh;
+    display: flex;
+    cursor: pointer;
+}
+
+.balance {
+    width: 40vw;
+    min-width: 240px;
+    display: flex;
+}
+
+.balance img {
+    margin-left: 10px;
+}
+
+.balance img:hover {
+    background-color: #e0f0e348;
+}
+
+.money {
+    margin-left: 10px;
+}
+
+@media screen and (max-width: 500px){
+   header {
+    height: 8.5vh;
+    display: block;
+    font-size: calc(5px + 2vw);
+   }
+
+   .loggout {
+    position: fixed;
+   }
+}

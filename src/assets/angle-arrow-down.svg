@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+	<title>angle-arrow-down_icon-icons</title>
+	<defs>
+		<image  width="32" height="20" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAUBAMAAAAevyJ8AAAAAXNSR0IB2cksfwAAAC1QTFRFAAAA4PDj4PDj4PDj4PDj3u7h3u7h3e3gAAAAAAAA3+/i3u3h3+/i4O/j3e3gVCMdsAAAAA90Uk5TAKZA2f/b/9wIAqbb2qbbUYoS9QAAAJNJREFUeJxVzsEJg0AQBdDv5hzwkAIUrzkE8ZJj8IsQWBGxhBSSYlJBakglVpJx1N3ZuSwzPP5fIIeZEjh1ZnfNDc1rjIeKLcj+HQGJC3mPgA9kZFtEIBUf8rsdrqSXJxA3K8CaMoWEdc7kIMT9dqCkVuD3NknpCgOULAKe4cdC+tkAJUdFIAlQYoGSBAjx6Y7sAH9jcB2dIkUgMwAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+	</style>
+	<use id="Background" href="#img1" x="0" y="6"/>
+</svg>

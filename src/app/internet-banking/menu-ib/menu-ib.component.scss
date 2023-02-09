@@ -1,0 +1,46 @@
+@import "../../../assets/variables.scss";
+
+nav {
+    width: 15vw;
+    min-width: 180px;
+    height: 100vh;
+    background-color: $base-color;
+    font-family: $base-font;
+    color: $second-color;
+    font-size: calc(12px + 0.4vw);
+    border-right: 2px solid rgba(0, 0, 0, 0.10);
+}
+
+ul {
+    margin-top: 0;
+    padding: 0;
+}
+
+li{
+    padding: 2vw;
+    border-bottom: 1px solid #e0f0e35d;
+    list-style: none;
+    text-align: center;
+}
+
+li:hover {
+    background-color: #e0f0e35b;
+    cursor: pointer;
+}
+
+img {
+    margin-top: 25vh;
+    width: 15vw;
+    min-width: 180px;
+}
+
+@media screen and (max-width: 500px){
+    nav{
+        min-width: 20px;
+        font-size: calc(4px + 2vw);
+    }
+
+    img {  
+        display: none;
+    }
+ }
